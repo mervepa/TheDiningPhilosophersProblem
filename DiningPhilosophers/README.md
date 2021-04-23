@@ -6,7 +6,7 @@
 
 Implementation will require creating five philosophers, each identified by a number 0 . . 4. Each philosopher will run as a separate thread. Philosophers alternate between thinking and eating. To simulate both activities, have each thread sleep for a random period between one and three seconds.
 
-Thread creation using Pthreads is covered in Section 4.4.1. When a philosopher wishes to eat, she invokes the function:
+When a philosopher wishes to eat, she invokes the function:
 
 `pickup_forks(int philosopher_number)`
 
