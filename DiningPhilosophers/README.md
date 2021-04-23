@@ -2,7 +2,7 @@
 
 # The Dining Philosophers Problem
 ---
- This project involves implementing a solution to this problem using POSIX mutex locks and condition variables. Solution will be based on the algorithm illustrated in Figure 7.7.
+ This project involves implementing a solution to this problem using POSIX mutex locks and condition variables.
 
 Implementation will require creating five philosophers, each identified by a number 0 . . 4. Each philosopher will run as a separate thread. Philosophers alternate between thinking and eating. To simulate both activities, have each thread sleep for a random period between one and three seconds.
 
@@ -10,11 +10,4 @@ Thread creation using Pthreads is covered in Section 4.4.1. When a philosopher w
 
 `pickup_forks(int philosopher_number)`
 
-Your implementation will require the use of POSIX condition variables, which are covered in Section 7.3.
-
-Submit your C source code, your `Makefile` and a `.pdf` file as your report. Make sure you add your name and student id at the end of your report.
-
-When you accepted this assignment, you have created a repository as assignment3-your_GitHub_username. Cloning this repository gives you a local copy of your project. After adding your files you can commit the changes.
-
-Reference: Operating System Concepts Tenth Edition, A. Silberschatz, P. B. Galvin, G. Gagne,
-Wiley, 2018.
+Implementation will require the use of POSIX condition variables.
